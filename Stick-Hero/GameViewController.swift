@@ -16,7 +16,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let scene = StickHeroGameScene(size:CGSize(width: DefinedScreenWidth, height: DefinedScreenHeight))
+        let scene = StickHeroGameScene(size:CGSize(width: Constants.DefinedScreenWidth, height: Constants.DefinedScreenHeight))
         
         // Configure the view.
         let skView = self.view as! SKView
